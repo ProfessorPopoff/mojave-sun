@@ -303,12 +303,6 @@
 	. = ..()
 	icon_state = "crack_[rand(1,11)]"
 
-/turf/open/floor/plating/roof
-	icon = 'mojave/icons/turf/floors_1.dmi'
-	icon_state = "roof"
-	name = "roof"
-	desc = "Some metal roofing."
-
 /turf/open/floor/plating/ms13/ice
 	name = "ice sheet"
 	desc = "A sheet of solid ice. Looks slippery. Tread Carefully."
@@ -423,3 +417,45 @@
 	. = ..()
 	icon = 'icons/turf/floors.dmi'
 	icon_state = "transparent" //Reset to original icon so it doesn't darken things when viewed in game.
+
+
+///ROOFS///
+
+/turf/open/floor/plating/ms13/roof
+	icon = 'mojave/icons/turf/scraproof.dmi'
+	icon_state = "peak_top"
+	name = "roof"
+	desc = "Some metal roofing."
+
+/turf/open/floor/plating/ms13/roof/peak
+	icon_state = "single_peak"
+
+/turf/open/floor/plating/ms13/roof/peak/end
+	icon_state = "end_peak"
+
+/turf/open/floor/plating/ms13/roof/peak/ridge
+	icon_state = "peak_ridge"
+
+/turf/open/floor/plating/ms13/roof/peak/turn
+	icon_state = "peak_turn"
+
+/turf/open/floor/plating/ms13/roof/peak/intersect
+	icon_state = "peak_tri"
+
+/turf/open/floor/plating/ms13/roof/peak/cross
+	icon_state = "peak_four"
+
+/turf/open/floor/plating/ms13/roof/peak/corner
+	icon_state = "peak_top_corner"
+
+/turf/open/floor/plating/ms13/roof/side
+	icon_state = "side_major"
+
+/turf/open/floor/plating/ms13/roof/side/sliver
+	icon_state = "side_minor"
+
+/turf/open/floor/plating/ms13/roof/side/edge
+	icon_state = "side_edge"
+
+/turf/open/floor/plating/ms13/roof/side/nub
+	icon_state = "side_edge_nub"
